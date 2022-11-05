@@ -6,20 +6,16 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class Grupo extends Model
+
+class Especialidad extends Model
 {
     use HasFactory;
     use SoftDeletes;
 
-    protected $table = 'grupos';
+    protected $table = 'especialidades';
 
+    
     protected $fillable = [
-
-        'clave',
-        'turno',
-        'semestre',
-        'descripcion'
-
-
+        'nombre'
     ];
 }

@@ -37,6 +37,12 @@
             <a class="dropdown-item" href="{{url('/alumnos')}}">Consultar</a>
             <a class="dropdown-item" href="{{url('/alumno/registrar')}}">Registrar</a>
         </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false" >Especialidades</a>
+            <div class="dropdown-menu">
+            <a class="dropdown-item" href="{{url('/especialidades')}}">Consultar</a>
+            <a class="dropdown-item" href="{{url('/especialidad/registrar')}}">Registrar</a>
+        </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
